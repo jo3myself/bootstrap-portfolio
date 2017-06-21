@@ -1,0 +1,72 @@
+.white {
+	background-color: #ffffff;
+}
+
+.navpad {
+	padding-top: 20px;
+}
+
+.main {
+	background-image: url(cloth.png);
+}
+
+.conpic {
+	width: 60px;
+  	height: 60px;
+}
+
+footer {
+	text-align: center;
+	padding: 20px;
+	background-color: #666666;
+	width: 100%;
+	position: absolute;
+	color: white;
+}
+
+h1 {
+	color: #4aaaa5;
+}
+
+.btn-default {
+	color: #ffffff;
+	background-color: #4aaaa5;
+}
+
+.cont {
+    position: relative;
+    width: 300px;
+    padding: 10px;
+}
+
+.imagetemp {
+  opacity: 1;
+  /*display: block;*/
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.cont:hover .imagetemp {
+  opacity: 0.3;
+}
+
+.cont:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4aaaa5;
+  color: white;
+  font-size: 18px;
+  padding: 20px;
+}
